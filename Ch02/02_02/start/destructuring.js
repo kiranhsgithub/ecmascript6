@@ -18,3 +18,17 @@ console.log(title);
 console.log(price);
 console.log(sandwich.description);
 console.log(sandwich.ingredients);
+
+var vacation = {
+    destination: "Chile",
+    travelers: 2,
+    activity: "skiing",
+    cost: 4000
+};
+
+function vacationMarketing({destination, activity}) {
+    console.log(`Come to ${destination} and do some ${activity}`);
+    
+}
+
+vacationMarketing(vacation);
